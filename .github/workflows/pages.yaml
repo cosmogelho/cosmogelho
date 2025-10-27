@@ -28,7 +28,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.128.2' # Trava em uma versão estável conhecida
+          hugo-version: '0.146.0' # Usa a versão MÍNIMA E COMPATÍVEL exigida pelo tema
           extended: true
 
       - name: Install Dependencies
