@@ -9,8 +9,6 @@ Cosmogelho é a união entre cosmo (cosmovisão) e gelho (evangelho). Essa fusã
 
 O projeto nasce da convicção de que Cristo é Senhor de tudo (Cl 1.16–17; Mt 28.18), e que, portanto, todas as áreas da vida — pensamento, arte, ciência, cultura, moral, estudo, linguagem e ação — devem ser vividas para a glória de Deus (1Co 10.31).
 
-{{< cards >}}
-  {{< card link="artigos" title="Explore os Artigos" icon="book-open" >}}
   Navegue pelas categorias para explorar análises, estudos e reflexões sob a ótica da cosmovisão cristã.
-  {{< /card >}}
-{{< /cards >}}
+
+[📚 **Explore os Artigos**](https://cosmogelho.github.io/cosmogelho/artigos)
