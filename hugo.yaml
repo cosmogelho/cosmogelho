@@ -1,0 +1,54 @@
+# Hugo configuration file
+
+title: "Cosmogelho"
+baseURL: "https://cosmogelho.github.io/cosmogelho/"
+languageCode: "pt-br"
+
+# Tell Hugo where to find the theme module
+module:
+  imports:
+    - path: github.com/imfing/hextra
+
+# Main menu configuration
+menu:
+  main:
+    - name: Início
+      pageRef: /
+      weight: 10
+    - name: Sobre
+      pageRef: /sobre
+      weight: 20
+    - name: Artigos
+      pageRef: /artigos
+      weight: 30
+    - name: Contato ↗
+      url: "https://linktr.ee/cosmogelho"
+      weight: 40
+
+# Footer configuration
+footer:
+  display: true
+  copyright: '© {year} Cosmogelho. Todos os direitos reservados.'
+
+# Default parameters
+params:
+  description: "Uma cosmovisão moldada pelo evangelho de Cristo."
+  navbar:
+    display: true
+    displayLogo: true
+    logo:
+      dark: "https://ugc.production.linktr.ee/73e14aea-7f06-41fc-882a-08f6c3ba6ff2_Cosmogelho--2-.png?io=true&size=avatar-v3_0"
+      light: "https://ugc.production.linktr.ee/73e14aea-7f06-41fc-882a-08f6c3ba6ff2_Cosmogelho--2-.png?io=true&size=avatar-v3_0"
+  theme:
+    # Options: "light", "dark", "system"
+    default: "system"
+    displayToggle: true
+
+# Markup settings for Goldmark
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # Allows raw HTML in markdown files
+  highlight:
+    # Options: "true", "false"
+    noClasses: false
